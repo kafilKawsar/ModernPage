@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Big Shoulders Display", sans-serif;
+}
+p{
+    font-family: "Outfit", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.hero-section{
+    display: flex;
+}
+.left-side{
+    background-color: #000;
+    height: 100vh;
+    width: 32%;
+    position: relative;
+}
+.left-side h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    position: absolute;
+    top: 24%;
+    left: 52.9%;
+    mix-blend-mode: difference;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+.img-container{
+    height: 100vh;
+}
+.img-container img{
+    height: 100%;
+}
+.right-side{
+    width: 68%;
+    position: relative;
+}
+.hero-content {
+    position: absolute;
+    top: 24%;
+    left: 44%;
+}
+.hero-content p{
+    width: 340px;
+    margin-bottom: 64px;
+    line-height: 29px;
+    font-size: 18px;
+    color: #444444;
+}
+.hero-content a, .schedule a, .map a{
+    display: flex;
+    align-items: center;
+}
+.hero-content a>span.text{
+    text-transform: uppercase;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 24px 32px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.hero-content a span.icon{
+    background-color: #D5966C;
+    padding: 24px 32px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.container{
+    margin: 180px 355px;
+}
+.first-div{
+    display: flex;
+    gap: 125px;
+    margin-bottom: 30px
+}
+.gallery-upper-left{
+    width:100% ;
+}
+.gallery-upper-left h2, .gallery-lower-right h2{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+.gallery-upper-left p, .gallery-lower-right p{
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+.gallery-upper-img{
+
+}
+.gallery-upper-img img{
+    width: 100%;
+}
+.second-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.last-gal{
+    width: 80%;
+}
+.gallery-2 img{
+    width: 100%;
+
+}
+.gallery-3 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.gallery-lower-right{
+    background-color: #000;
+    padding: 64px 48px;
+    color: #ffffff ; 
+}
+.gallery-lower-right h2{
+    color: white;
+}
+.gallery-lower-right p{
+    color: white;
+}
+
+.schedule{
+    margin: 150px 355px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #ffffff;
+    padding: 95px 72px;
+    border-radius: 15px;
+    gap: 5px;
+    justify-content: space-between;
+}
+.schedule-content h2{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 25px ;
+}
+.schedule-content p{
+    font-size: 20px;
+    line-height: 26px;
+    width: 459px;
+}
+.schedule a span.text{
+background-color: #D5966C;
+padding: 24px 32px;
+color: #fff;
+}
+.schedule a>span.icon{
+    background-color: #ffffff;
+    padding: 24px;
+    color: #D5966C;
+}
+
+footer{
+    display: flex;
+    background-color: #D5966C;
+    padding: 80px 19%;
+    gap: 270px;
+}
+.footer-content{
+    display: flex;
+    
+}
+.footer-logo{
+    width: 100%;
+    aspect-ratio: 2.76/1;
+}
+.footer-content p{
+    
+    font-size: 18px;
+    line-height: 28px;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+    color: #151515;
+    font-size: 25px;
+}
+
+
+/* Location Page........ */
+.map{
+position: relative;
+}
+.map-img{
+    width: 100%;
+    height: 100vh;
+}
+.map-img img{
+    width: 100%;
+   height: 100%;
+    object-fit: cover;
+}
+.map a{
+    position: absolute;
+    top: 0;
+    left: 12%;
+}
+.map a>span.text{
+    text-transform: uppercase;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 22px 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.map a span.icon{
+    background-color: #D5966C;
+    padding: 22px 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.address{
+    background-color: #151515;
+    
+}
+.sec-part{
+    display: flex;
+    padding: 120px 240px;
+    gap: 380px;
+}
+.head-tag h1{
+    width: 350px;
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.address-item h2{
+    color: #D5966C;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+}
+.address-item p{
+    width: 60% ;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+}
+.add-p {
+    margin: 20px 0 20px;
+}
